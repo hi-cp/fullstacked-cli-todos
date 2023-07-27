@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #262626;
+    color: white;
+}
+
+body {
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: rgb(23, 93, 139);
+    padding: 10px 20px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+form {
+    margin-top: 10px
+}
+
+input[type=text]{
+    outline: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.todo {
+    background-color: lightcyan;
+    color: rgb(23, 93, 139);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.todo.completed {
+    text-decoration: line-through;
+    background-color: rgba(204, 248, 248, 0.7);
+}

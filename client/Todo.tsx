@@ -18,7 +18,7 @@ export default function({id, didDelete}) {
         didDelete();
     }
 
-    return <div>
+    return <div className={"todo " + (todo?.completed ? "completed" : "")}>
         <input onChange={toggleTodo} type="checkbox" checked={todo?.completed} />
         {todo?.title}
         {todo?.completed && <button onClick={deleteTodo}>Delete</button>}
