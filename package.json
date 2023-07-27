@@ -1,0 +1,23 @@
+{
+  "name": "fullstacked-cli-todos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx fullstacked watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@fullstacked/build": "^0.10.5",
+    "@fullstacked/watch": "^0.10.9",
+    "@fullstacked/webapp": "^0.10.3",
+    "@types/react": "^18.2.17",
+    "@types/react-dom": "^18.2.7",
+    "fullstacked": "^0.10.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
